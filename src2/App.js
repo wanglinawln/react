@@ -10,7 +10,7 @@ import Login from './container/Login'
 export default class App extends Component {
     render() {
         return (
-            <Router>
+            <Router basename="/build2">
                 <div>
                     <Header/>
                 </div>
