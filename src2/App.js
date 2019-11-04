@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Header from "./components/Headers"
-import {BrowserRouter as Router,Route,Redirect,NavLink} from "react-router-dom" 
+import {HashRouter as Router,Route,Redirect,NavLink} from "react-router-dom" 
 import Home from "./container/Home"
 import Api from "./container/Api"
 import Start from "./container/Start"
